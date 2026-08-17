@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    font-family: theme("fontFamily.sans");
+  }
+  h1, h2, h3, .font-display {
+    font-family: theme("fontFamily.display");
+  }
+  /* Visible keyboard focus everywhere (section 25: accessibility) */
+  :focus-visible {
+    outline: 2px solid theme("colors.teal.500");
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  ::selection {
+    background: theme("colors.teal.100");
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
