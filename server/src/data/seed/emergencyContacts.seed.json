@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ec_999",
+    "name": "National Emergency Service",
+    "nameBn": "জাতীয় জরুরি সেবা",
+    "category": "National Emergency",
+    "phone": "999",
+    "description": "Toll-free 24/7 national emergency line covering police, fire, and ambulance dispatch anywhere in Bangladesh. Free to call, including from a zero-balance phone.",
+    "descriptionBn": "সারাদেশে পুলিশ, ফায়ার সার্ভিস ও অ্যাম্বুলেন্সের জন্য টোল-ফ্রি জাতীয় জরুরি সেবা, ২৪ ঘণ্টা উন্মুক্ত।",
+    "verified": true,
+    "source": "Bangladesh Police / National Emergency Service 999 (official government service)",
+    "lastVerifiedAt": "2026-08-15"
+  },
+  {
+    "id": "ec_16263",
+    "name": "Shasthyo Batayon — National Health Helpline",
+    "nameBn": "স্বাস্থ্য বাতায়ন — জাতীয় স্বাস্থ্য হেল্পলাইন",
+    "category": "Medical Emergency",
+    "phone": "16263",
+    "description": "24/7 government health helpline run by DGHS, Ministry of Health and Family Welfare. Get medical advice from a doctor by phone, plus information on nearby government and private hospitals.",
+    "descriptionBn": "স্বাস্থ্য অধিদপ্তর পরিচালিত ২৪ ঘণ্টার সরকারি স্বাস্থ্য হেল্পলাইন, যেখানে ফোনে ডাক্তারের পরামর্শ পাওয়া যায়।",
+    "verified": true,
+    "source": "Directorate General of Health Services, Ministry of Health and Family Welfare (16263.dghs.gov.bd)",
+    "lastVerifiedAt": "2026-08-15"
+  },
+  {
+    "id": "ec_109",
+    "name": "National Helpline Centre for Violence Against Women & Children",
+    "nameBn": "নারী ও শিশু নির্যাতন প্রতিরোধে জাতীয় হেল্পলাইন সেন্টার",
+    "category": "Other",
+    "phone": "109",
+    "description": "Toll-free 24/7 helpline run by the Ministry of Women and Children Affairs for victims of domestic violence, child marriage, and abuse, offering guidance and referrals to legal and medical support.",
+    "descriptionBn": "নারী ও শিশু বিষয়ক মন্ত্রণালয় পরিচালিত টোল-ফ্রি হেল্পলাইন, নির্যাতনের শিকার ব্যক্তিদের জন্য পরামর্শ ও সহায়তা প্রদান করে।",
+    "verified": true,
+    "source": "Ministry of Women and Children Affairs, Multi-Sectoral Programme on Violence Against Women (mspvaw.gov.bd)",
+    "lastVerifiedAt": "2026-08-15"
+  }
+]
